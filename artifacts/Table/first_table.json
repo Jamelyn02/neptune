@@ -1,0 +1,46 @@
+{
+	"id": "9b79e91c-3f76-46fa-854c-7506fb539887",
+	"createdAt": "2025-10-02T03:07:07.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "2f2c1665-447c-42d1-8af3-e7c05588ad34",
+			"fieldName": "Name",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Name"
+		},
+		{
+			"id": "2772575c-97aa-4633-ebed-35fc9fb33904",
+			"fieldName": "Number",
+			"fieldType": "integer",
+			"isUnique": true,
+			"description": "Number"
+		},
+		{
+			"id": "18c4d284-a231-4cf0-f71f-7de8987628c2",
+			"fieldName": "Rank",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Rank"
+		},
+		{
+			"id": "b2f9aef9-ecdf-4820-a9dd-8d41b30124af",
+			"fieldName": "Squad",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Squad"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "first_table",
+	"description": "My First Table",
+	"ver": "25.10.02.1113",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "31ca3619-4ecf-46c6-8689-98792c5abe63",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

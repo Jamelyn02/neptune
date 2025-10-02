@@ -1,0 +1,51 @@
+{
+	"id": "9032fc8a-49c2-459b-856d-4fb1b344f913",
+	"createdAt": "2025-10-02T03:38:47.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "9d195032-61a6-4190-cc7c-6d0035b4e4e7",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "ff68489b-93e0-444f-8843-00079db755ba",
+			"fieldName": "age",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "f83943bd-5a7a-4bc1-fff7-20f8b4dd7402",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "1e13e11d-652b-4b49-8f11-722112678d98",
+			"fieldName": "address",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "340c87f7-4a58-4c80-d1e6-0fa267e08153",
+			"fieldName": "phone_number",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "exercise",
+	"description": "My First Exercise",
+	"ver": "25.10.02.1142",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "31ca3619-4ecf-46c6-8689-98792c5abe63",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

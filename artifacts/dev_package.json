@@ -1,0 +1,110 @@
+{
+	"id": "31ca3619-4ecf-46c6-8689-98792c5abe63",
+	"createdAt": "2025-10-01T09:08:56.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/Jamelyn02/neptune.git",
+		"branch": "master"
+	},
+	"name": "First Package",
+	"description": "Just a trial package",
+	"ver": "25.10.02.1509",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": true,
+	"roles": [],
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "9b79e91c-3f76-46fa-854c-7506fb539887",
+			"name": "first_table",
+			"description": "My First Table"
+		},
+		{
+			"id": "9032fc8a-49c2-459b-856d-4fb1b344f913",
+			"name": "exercise",
+			"description": "My First Exercise"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "fdc7620a-7f28-46bf-9591-fe5826de5553",
+			"description": null,
+			"name": "My First Tile"
+		},
+		{
+			"id": "e40dba40-65c6-4928-829f-a5c57f717a12",
+			"description": null,
+			"name": "My Second Tile"
+		},
+		{
+			"id": "bafd92f7-ae01-4edc-b5c0-9b17107effa9",
+			"description": null,
+			"name": "New Tile"
+		},
+		{
+			"id": "3d517eb9-64ea-44d0-bab2-44efa36d9e02",
+			"description": null,
+			"name": "Jame"
+		},
+		{
+			"id": "27e71f67-8475-43aa-b70a-6c77aa4fba76",
+			"description": null,
+			"name": "My Third Tile"
+		},
+		{
+			"id": "1d9a24ac-05d4-491d-8963-405a14c57dd2",
+			"description": null,
+			"name": "Jamel"
+		}
+	],
+	"tile_layout": [],
+	"category": [
+		{
+			"id": "bf9c70a1-0151-45ff-a46c-fa7a2b57881e",
+			"description": null,
+			"name": "Main Group"
+		},
+		{
+			"id": "664bb70e-bc4d-4822-81b5-230d324f13c5",
+			"description": null,
+			"name": "Jams"
+		}
+	],
+	"tilegroup_layout": [],
+	"launchpad": [
+		{
+			"id": "f68bdcf0-0fc8-41e4-9b7f-8b0912197193",
+			"name": "My-First-Launchpad",
+			"description": null
+		}
+	],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": []
+}
