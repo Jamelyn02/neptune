@@ -1,0 +1,264 @@
+{
+	"id": "eb6750ee-783b-47f1-a27c-46517e35ab0d",
+	"createdAt": "2025-10-02T08:49:40.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": false,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference",
+				"title": "First Exercise",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "address",
+				"label": "address",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "age",
+				"label": "age",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "email",
+				"label": "email",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "phone_number",
+				"label": "phone_number",
+				"type": "integer",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "name",
+				"text": "name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 1,
+				"type": "",
+				"_navigation": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				},
+				"valueType": ""
+			},
+			{
+				"name": "age",
+				"text": "age",
+				"enableFilter": false,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 2
+			},
+			{
+				"name": "email",
+				"text": "email",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 3,
+				"type": ""
+			},
+			{
+				"name": "address",
+				"text": "address",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 4
+			},
+			{
+				"name": "phone_number",
+				"text": "phone_number",
+				"enableFilter": false,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 5,
+				"type": ""
+			}
+		],
+		"defaultVariant": {
+			"id": "e604e95a-c64c-4f89-fa06-fce0362d499d",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "exercise"
+	},
+	"name": "FirstAdaptiveDesigner",
+	"description": "My first adaptive designer",
+	"group": "",
+	"type": "C",
+	"connectorid": "842a83ab-9ed1-4a7a-b9cf-a33398a98bea",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.10.03.0849",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "31ca3619-4ecf-46c6-8689-98792c5abe63",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

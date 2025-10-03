@@ -35,7 +35,26 @@
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],
-	"reports": [],
+	"reports": [
+		{
+			"id": "eb6750ee-783b-47f1-a27c-46517e35ab0d",
+			"name": "FirstAdaptiveDesigner",
+			"description": "My first adaptive designer",
+			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "3b6ddd31-4070-4579-81bc-78194f3f9c77",
+			"name": "elearning_hr_employee_list",
+			"description": "Elearning demo tables",
+			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "1ded117f-b065-4ec5-bd13-ef79325bd265",
+			"name": "elearning_hr_employee_edit",
+			"description": "My first edit",
+			"application": "neptunedxp_adaptive_edit"
+		}
+	],
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [
@@ -100,7 +119,18 @@
 	"department": [],
 	"script_scheduler": [],
 	"wf_definition": [],
-	"connector": [],
+	"connector": [
+		{
+			"id": "842a83ab-9ed1-4a7a-b9cf-a33398a98bea",
+			"name": "exercise",
+			"description": "My First Exercise"
+		},
+		{
+			"id": "0d37917f-9b79-4508-8cfe-fbf01297cc1f",
+			"name": "elearning_hr_demo_connector",
+			"description": null
+		}
+	],
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],

@@ -1,0 +1,17 @@
+{
+	"id": "0d37917f-9b79-4508-8cfe-fbf01297cc1f",
+	"createdAt": "2025-10-03T00:59:31.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "abbd1f91-ddad-ed11-a8e0-000d3ada944e",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "elearning_hr_demo_connector",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "25.10.03.0900",
+	"disabled": false,
+	"package": "31ca3619-4ecf-46c6-8689-98792c5abe63"
+}

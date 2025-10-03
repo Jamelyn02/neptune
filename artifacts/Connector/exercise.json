@@ -1,0 +1,17 @@
+{
+	"id": "842a83ab-9ed1-4a7a-b9cf-a33398a98bea",
+	"createdAt": "2025-10-02T08:26:17.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "9032fc8a-49c2-459b-856d-4fb1b344f913"
+	},
+	"documentation": {},
+	"name": "exercise",
+	"description": "My First Exercise",
+	"group": null,
+	"type": "T",
+	"ver": "25.10.02.1626",
+	"disabled": false,
+	"package": "31ca3619-4ecf-46c6-8689-98792c5abe63"
+}
