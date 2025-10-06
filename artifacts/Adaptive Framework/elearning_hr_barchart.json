@@ -1,0 +1,203 @@
+{
+	"id": "9b4d041e-4184-4111-91cd-83e5d428ca16",
+	"createdAt": "2025-10-03T03:01:19.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "100",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": "280",
+				"chartType": "bar",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"title": "Roles"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "firstName",
+				"label": "First Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "lastName",
+				"label": "Last Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "emailAddress",
+				"label": "Email Address",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "phoneNumber",
+				"label": "Phone Number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "streetAddress",
+				"label": "Street Address",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "nationality",
+				"label": "Nationality",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salary",
+				"label": "Salary",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "postCode",
+				"label": "Post Code",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "department",
+				"label": "Department",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "role",
+				"label": "Role",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "hireDate",
+				"label": "Hire Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "employmentType",
+				"label": "Employment Type",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "employeeReferenceNo",
+				"label": "Reference Number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "employmentTime",
+				"label": "Employment Time",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "role",
+				"text": "Roles",
+				"visible": true,
+				"fieldPos": 1
+			}
+		],
+		"defaultVariant": {
+			"id": "cba60209-c9f4-492a-c92e-320947f24e6d",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {},
+				"form": {},
+				"table": {},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "elearning_hr_demo_employees"
+	},
+	"name": "elearning_hr_barchart",
+	"description": "Launchpad connector",
+	"group": "",
+	"type": "C",
+	"connectorid": "0d37917f-9b79-4508-8cfe-fbf01297cc1f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.10.03.1103",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_chart",
+	"package": "31ca3619-4ecf-46c6-8689-98792c5abe63",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

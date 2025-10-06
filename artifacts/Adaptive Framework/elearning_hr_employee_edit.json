@@ -263,7 +263,8 @@
 				"inputFormatter": "",
 				"editable": true,
 				"visible": true,
-				"fieldPos": 11
+				"fieldPos": 11,
+				"type": "DatePicker"
 			},
 			{
 				"name": "employmentType",
@@ -271,7 +272,12 @@
 				"inputFormatter": "",
 				"editable": true,
 				"visible": true,
-				"fieldPos": 12
+				"fieldPos": 12,
+				"type": "SingleSelectLookup",
+				"lookupTable": "elearning_hr_demo_employee_status",
+				"lookupFieldKey": "statusNumber",
+				"lookupFieldText": "means",
+				"lookupShowOnlyText": true
 			},
 			{
 				"name": "employeeReferenceNo",
@@ -375,7 +381,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "25.10.03.0931",
+	"ver": "25.10.03.1157",
 	"disabled": false,
 	"appType": "A",
 	"application": "neptunedxp_adaptive_edit",

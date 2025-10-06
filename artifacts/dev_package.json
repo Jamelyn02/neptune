@@ -8,13 +8,20 @@
 	},
 	"name": "First Package",
 	"description": "Just a trial package",
-	"ver": "25.10.02.1509",
+	"ver": "25.10.06.0907",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
 	"excludeTemplateFiles": true,
 	"roles": [],
-	"apps": [],
+	"apps": [
+		{
+			"id": "a26a9143-8829-4f3f-ae26-db03b1e0982f",
+			"application": "app_designer_demo",
+			"title": "",
+			"description": ""
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
@@ -34,13 +41,31 @@
 	"jsscript_group": [],
 	"theme": [],
 	"pdf": [],
-	"rulesengine": [],
+	"rulesengine": [
+		{
+			"id": "319db240-2aff-411c-9795-de8e884d6a32",
+			"name": "department_rule",
+			"description": ""
+		}
+	],
 	"reports": [
 		{
 			"id": "eb6750ee-783b-47f1-a27c-46517e35ab0d",
 			"name": "FirstAdaptiveDesigner",
 			"description": "My first adaptive designer",
 			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "b2f7704b-0af1-4a28-9c0a-a0fb7d688b25",
+			"name": "Equipment_List",
+			"description": "Equipment list",
+			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "9b4d041e-4184-4111-91cd-83e5d428ca16",
+			"name": "elearning_hr_barchart",
+			"description": "Launchpad connector",
+			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "3b6ddd31-4070-4579-81bc-78194f3f9c77",
@@ -69,6 +94,11 @@
 			"name": "My Second Tile"
 		},
 		{
+			"id": "c7c43331-292d-4d8d-82c8-7d7d68a90b5a",
+			"description": null,
+			"name": "elearning_HR_barchart_tile"
+		},
+		{
 			"id": "bafd92f7-ae01-4edc-b5c0-9b17107effa9",
 			"description": null,
 			"name": "New Tile"
@@ -91,6 +121,11 @@
 	],
 	"tile_layout": [],
 	"category": [
+		{
+			"id": "c8a59d85-3fb7-445f-a4e3-bc922544a821",
+			"description": null,
+			"name": "elearning_HR_analytics_Tile_Group"
+		},
 		{
 			"id": "bf9c70a1-0151-45ff-a46c-fa7a2b57881e",
 			"description": null,
@@ -128,6 +163,11 @@
 		{
 			"id": "0d37917f-9b79-4508-8cfe-fbf01297cc1f",
 			"name": "elearning_hr_demo_connector",
+			"description": null
+		},
+		{
+			"id": "05ec3044-8eb1-411c-b22e-79813ea0f410",
+			"name": "equipment",
 			"description": null
 		}
 	],
